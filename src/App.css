@@ -2,37 +2,84 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 100px;
+  font-stretch: condensed;
+  line-height: 0px;
+  color: rgba(77,77,77,1);
+}
+.title-small {
+  font-size: 23px;
+  font-stretch: condensed;
+  line-height: 0px;
+  color: rgba(77,77,77,1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.button{
+  border:0px solid black;
+  background-color: transparent; 
+  outline:none;
+  color:white;
+  font-style: italic;
+  text-decoration: underline;
+  padding-top: 25px;
+}
+.button-footer{
+  margin-left:300%;
+  border:0px solid black;
+  background-color: transparent; 
+  outline:none;
+  color:rgba(99,118,157,1);
+  font-style: italic;
+  text-decoration: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-dark{
+  border:0px solid black;
+  background-color: transparent; 
+  outline:none;
+  color:rgba(65, 79, 107, 1);
+  font-style: italic;
+  text-decoration: underline;
+  padding-top: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.climb-button-selected{
+  font-size: 20px;
+  border:0px solid black;
+  width: 140px;
+  height: 40px;
+  background-color: rgba(176,180,190,1);
+  color:rgba(65, 79, 107, 1); 
+  outline:none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.climb-button-unselected{
+  font-size: 20px;
+  border:0px solid black;
+  width: 140px;
+  height: 40px;
+  background-color:rgba(65, 79, 107, 1);
+  color:  rgba(176,180,190,1); 
+  outline:none;
+}
+
+.footer-text{
+  margin-right: 25%;
+  color:rgba(99,118,157,1);
+}
+.footer-text-p{
+  color:rgba(99,118,157,1);
+  margin-bottom: -25px;
+}
+
+.schedule-box{
+  width: 350px;
+  height: auto;
+  margin-left: 26%;
+  position: absolute;
+  margin-top: 100px;
+  background-color: white;
+  color: rgba(65, 79, 107, 1);
 }
